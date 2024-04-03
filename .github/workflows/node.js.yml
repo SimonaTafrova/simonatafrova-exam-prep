@@ -46,7 +46,7 @@ jobs:
     - name: Run npm install
       run: npm install
     - name: Install playwright
-      run: npx install playwright
+      run: npx playwright install
     - name : Run IU tests
       run: npm run test:ui
     
