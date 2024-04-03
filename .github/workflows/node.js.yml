@@ -26,6 +26,6 @@ jobs:
     - name: Run npm install
       run: npm install
     - name: Run Unit Tests
-      run: npm run tests:unit
+      run: npm run test:unit
     - name: Display SoftUni username
       run: echo "SimonaTafrova"
